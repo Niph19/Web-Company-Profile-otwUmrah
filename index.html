@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OtwUmrah – Home</title>
-    
+
     <!-- Font Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,17 +16,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    
+
     <!-- Icon -->
-    
-    
+
+
     <!-- CSS -->
     <link rel="stylesheet" href="dists/css/style.css">
-    </head>
+</head>
+
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top ">
@@ -33,19 +35,21 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mx-auto">
                     <a class="navbar-brand fs-3 pt-3 ms-5" href="#">LOGO</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <li class="nav-item">
-                        <a class="nav-link ps-5 pe-4 pt-4 active" aria-current="page" href="#" id="main-navbar">OtwUmrah</a>
+                        <a class="nav-link ps-5 pe-4 pt-4 active" aria-current="page" href="#"
+                            id="main-navbar">OtwUmrah</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-4 pt-4" href="#" id="light-navbar">Tentang OtwUmrah</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link px-4 pt-4 dropdown-toggle" id="light-navbar" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link px-4 pt-4 dropdown-toggle" id="light-navbar" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Paket Umrah
                         </a>
                         <ul class="dropdown-menu">
@@ -61,23 +65,76 @@
                         <a class="nav-link ps-4 pe-5 pt-4" href="#" id="light-navbar">Testimoni</a>
                     </li>
                 </ul>
-                <button type="button" class="btn px-3 mt-2 rounded-pill" id="navbar-button">Hubungi Kami</button>
+                <button type="button" class="btn px-3 py-2 mt-2 rounded-pill" id="navbar-button">Hubungi Kami</button>
             </div>
         </div>
-</nav>
+    </nav>
     <!-- navbar -->
 
     <!-- hero -->
-    <div class="hero d-flex align-items-center">
+    <div class="hero d-flex align-items-start">
         <video autoplay muted loop playsinline id="bgVideo" poster="assets/img/kaaba.jpg">
             <source src="assets/videos/kaaba.mp4" type="video/mp4">
         </video>
         <div class="video-overlay"></div>
-    
+
         <div class="container">
             <div class="row">
-                <div class="col text-center">
-                    <h1 class="">HELLO</h1>
+                <div class="col text-center mb-4">
+                    <h1 class="text-white mb-4" id="playfair-d">Langkahmu Menuju Tanah Suci <br>Dimulai di Sini</h1>
+                    <p class="text-white fw-normal fs-5 lh-base mb-4">Temukan ketenangan dalam setiap perjalanan, dari
+                        niat hingga kembali. <br> Kami hadir untuk memastikan setiap langkah ibadahmu berjalan lancar
+                        dan penuh makna.</p>
+                </div>
+            </div>
+            <div class="row row-cols-lg-3 row-cols-1 g-5 justify-content-center mb-5">
+                <div class="col" id="col-features">
+                    <i class="fa-solid fa-star "></i>&nbsp;&nbsp;<span class="text-white fw-bold">Hotel Bintang 5</span>
+                </div>
+                <div class="col" id="col-features">
+                    <i class="fa-solid fa-plane"></i>&nbsp;&nbsp;<span class="text-white fw-bold">Penerbangan
+                        Premium</span>
+                </div>
+                <div class="col" id="col-features">
+                    <i class="fa-solid fa-people-group"></i>&nbsp;&nbsp;<span class="text-white fw-bold">Tim
+                        Berpengalaman</span>
+                </div>
+            </div>
+            <div class="row row-cols-lg-2 row-cols-1 justify-content-center gap-3 mb-5">
+                <div class="col" id="col-features">
+                    <button type="button" class="btn bg-brown text-white btn-lg fw-bold rounded-pill py-3 px-4"><i
+                            class="fa-regular fa-address-book"></i>&nbsp;LIHAT PAKET UMRAH</button>
+                </div>
+                <div class="col" id="col-features">
+                    <button type="button" id="hero-btn-2"
+                        class="btn border border-white text-white btn-lg fw-bold rounded-pill py-3 px-4"><i
+                            class="fa-regular fa-moon"></i>&nbsp;LIHAT JADWAL</button>
+                </div>
+            </div>
+            <div class="row row-cols-lg-4 row-cols-1 justify-content-center gap-5">
+                <div class="col" id="col-features">
+                    <div class="stat1 text-white text-center">
+                        <h2 class="fw-bold fs-1">300+</h2>
+                        <h3 class="fw-normal" id="stat-h2-size">JAMAAH/BULAN</h3>
+                    </div>
+                </div>
+                <div class="col" id="col-features">
+                    <div class="stat2 text-white text-center">
+                        <h2 class="fw-bold fs-1">100%</h2>
+                        <h3 class="fw-normal" id="stat-h2-size">KEBERANGKATAN</h3>
+                    </div>
+                </div>
+                <div class="col" id="col-features">
+                    <div class="stat3 text-white text-center">
+                        <h2 class="fw-bold fs-1">5000+</h2>
+                        <h3 class="fw-normal" id="stat-h2-size">TESTIMONI</h3>
+                    </div>
+                </div>
+                <div class="col" id="col-features">
+                    <div class="stat4 text-white text-center">
+                        <h2 class="fw-bold fs-1">15+</h2>
+                        <h3 class="fw-normal" id="stat-h2-size">PENGALAMAN</h3>
+                    </div>
                 </div>
             </div>
         </div>
@@ -88,12 +145,15 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2>TENTANG OTWUMRAH</h2>
+                    <h2>Tentang OtwUmrah</h2>
                 </div>
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <script src="dists/js/script.js"></script>
 </body>
+
 </html>

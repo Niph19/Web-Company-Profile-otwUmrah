@@ -2,8 +2,11 @@
     font-family: "Poppins", sans-serif;
 }
 
+.bg-brown {
+    background-color: #917a5a;
+}
 #main-navbar {
-    color: #9b8c76;
+    color: #917a5a;
 }
 #light-navbar {
     color: #f8f2e9e6;
@@ -21,14 +24,23 @@
     background-color: #9b8c76d5;
     transition: 0.3s;
 }
-
+#playfair-d {
+    font-family: "Playfair Display", serif;
+    font-size: 56px;
+    line-height: 60px;
+}
+.fa-solid {
+    color: #9b8c76;
+}
 .hero {
     position: relative;
     width: 100%;
     height: 100vh; /* hero full viewport height */
     overflow: hidden;
 }
-
+.hero .container {
+    margin-top: 150px;
+}
 #bgVideo {
     position: absolute;
     inset: 0; /* top:0; right:0; bottom:0; left:0; */
@@ -49,4 +61,16 @@
     position: relative;
     z-index: 2;
 }
+#col-features {
+    width: fit-content;
+}
 
+#hero-btn-2:hover {
+    background-color: #917a5a;
+    border: none;
+    border-color: #917a5a;
+}
+#stat-h2-size {
+    font-size: 14.5px;
+    font-family: "Poppins", sans-serif;
+}
