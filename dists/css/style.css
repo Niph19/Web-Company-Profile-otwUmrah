@@ -74,3 +74,40 @@
     font-size: 14.5px;
     font-family: "Poppins", sans-serif;
 }
+.tentang {
+    background-color: #f5f4f1;
+    padding-top: 60px;
+}
+#img-col {
+    width: fit-content;
+}
+.about-header h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    color: #32220b;
+}
+.about-header p {
+    font-family: "Poppins", sans-serif;
+    color: #917a5a;
+}
+.color-47 {
+    color: #474747
+}
+.list-header {
+    font-size: 15px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 4px;
+    color: #32220b;
+}
+.list-p {
+    font-size: 13px;
+    margin: 0;
+    color: #474747
+}
+.about-icon {
+    padding: 8px 10px 8px 10px;
+    background-color: #ebe7e0;
+    color: #917a5a;
+    width: 40px;
+    height: 40px;
+}
