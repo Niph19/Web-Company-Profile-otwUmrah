@@ -22,7 +22,7 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <!-- Icon -->
-
+    <link rel="shortcut icon" href="assets/icon/icon.png" type="image/x-icon">
 
     <!-- CSS -->
     <link rel="stylesheet" href="dists/css/style.css">
@@ -35,7 +35,8 @@
             <div class="container">
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav mx-auto">
-                        <a class="navbar-brand fs-3 pt-3 ms-5" href="#">LOGO</a>
+                        <a class="navbar-brand fs-3 pt-3 ms-5" href="#"><img src="assets/img/Logo.png" width="180"
+                                height="50"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                             aria-label="Toggle navigation">
@@ -43,7 +44,7 @@
                         </button>
                         <li class="nav-item">
                             <a class="nav-link ps-5 pe-4 pt-4 active" aria-current="page" href="#"
-                                id="main-navbar">OtwUmrah</a>
+                                id="main-navbar">Beranda</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link px-4 pt-4" href="#tentang-OtwUmrah" id="light-navbar">Tentang
@@ -53,7 +54,7 @@
                             <a class="nav-link px-4 pt-4" id="light-navbar" href="#paket-judul">Paket Umrah</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 pt-4" href="#" id="light-navbar">Tour Leader</a>
+                            <a class="nav-link px-4 pt-4" href="#" id="light-navbar" href="#tourL">Tour Leader</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link ps-4 pe-5 pt-4" href="#" id="light-navbar">Testimoni</a>
@@ -100,13 +101,14 @@
                 </div>
                 <div class="row row-cols-lg-2 row-cols-1 justify-content-center gap-3 mb-5">
                     <div class="col" id="col-features">
-                        <button type="button" class="btn bg-brown text-white btn-lg fw-bold rounded-pill py-3 px-4"><i
-                                class="fa-regular fa-address-book"></i>&nbsp;LIHAT PAKET UMRAH</button>
+                        <a href="#paket-judul"><button type="button"
+                                class="btn bg-brown text-white btn-lg fw-bold rounded-pill py-3 px-4"><i
+                                    class="fa-regular fa-address-book"></i>&nbsp;LIHAT PAKET UMRAH</button></a>
                     </div>
                     <div class="col" id="col-features">
-                        <button type="button" id="hero-btn-2"
-                            class="btn border border-white text-white btn-lg fw-bold rounded-pill py-3 px-4"><i
-                                class="fa-regular fa-moon"></i>&nbsp;LIHAT JADWAL</button>
+                        <a href="#tourL"><button type="button" id="hero-btn-2"
+                                class="btn border border-white text-white btn-lg fw-bold rounded-pill py-3 px-4"><i
+                                    class="fa-regular fa-moon"></i>&nbsp;TOUR LEADER</button></a>
                     </div>
                 </div>
                 <div class="row row-cols-lg-4 row-cols-1 justify-content-center gap-5">
@@ -215,35 +217,107 @@
                     <h2 class="text-center fw-bold" id="paket-judul">Paket Umrah</h2>
                 </div>
                 <div class="row row-cols-lg-3 row-cols-1 g-4 justify-content-center d-flex gap-3">
-                    <div class="card mb-3 rounded-4" id="paket-card-hemat" style="width: 25rem;">
+                    <div class="card mb-3 rounded-4 border border-0" id="paket-card-hemat" style="width: 25rem;">
                         <div class="card-body">
-                            <h5 class="card-title">Paket Umrah Hemat</h5>
+                            <h5 class="card-title fw-bold">Paket Umrah Hemat</h5>
+                            <ul class="card-list">
+                                <li><i class="fa-solid fa-check"></i>&nbsp;Hotel Standar & Nyaman</li>
+                                <li><i class="fa-solid fa-check"></i>&nbsp;Pendamping Berpengalaman</li>
+                                <li><i class="fa-solid fa-check"></i>&nbsp;Jadwal ibadah teratur dan efektif</li>
+                            </ul>
                             <p class="card-text">Perjalanan umrah dengan fasilitas standar, pendamping berpengalaman, dan jadwal ibadah yang teratur. Pas buat kamu yang ingin berangkat dengan biaya terjangkau namun tetap nyaman.
                             </p>
-                            <a href="#" class="btn" id="paket-btn">Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+                            <h5 class="card-price fw-bold">Rp 25.000.000</h5>
+                            <a href="#" class="btn" id="paket-btn">Selengkapnya <i
+                                    class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
-                    <div class="card mb-3 rounded-4" id="paket-card-silver" style="width: 25rem;">
+                    <div class="card mb-3 rounded-4 border border-0" id="paket-card-silver" style="width: 25rem;">
                         <div class="card-body">
-                            <h5 class="card-title">Paket Umrah Silver</h5>
-                            <p class="card-text">Fasilitas lebih lengkap, termasuk hotel dekat Masjid, pembimbing full service, dan perjalanan yang lebih fleksibel. Nyaman tanpa harus mewah banget.
+                            <h5 class="card-title fw-bold">Paket Umrah Silver</h5>
+                            <ul class="card-list">
+                                <li><i class="fa-solid fa-check"></i>&nbsp;Hotel dekat Masjidil Haram/Nabawi</li>
+                                <li><i class="fa-solid fa-check"></i>&nbsp;Pembimbing full service</li>
+                                <li><i class="fa-solid fa-check"></i>&nbsp;Jadwal perjalanan yang fleksibel</li>
+                            </ul>
+                            <p class="card-text card-text2">Fasilitas lebih lengkap, termasuk hotel dekat Masjid, pembimbing full service, dan perjalanan yang lebih fleksibel. Nyaman tanpa harus mewah banget.
                             </p>
-                            <a href="#" class="btn mt-4" id="paket-btn">Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+                            <h5 class="card-price fw-bold card-price2">Rp 32.000.000</h5>
+                            <a href="#" class="btn" id="paket-btn">Selengkapnya <i
+                                    class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
-                    <div class="card mb-3 rounded-4" id="paket-card-vip" style="width: 25rem;">
+                    <div class="card mb-3 rounded-4 border border-0" id="paket-card-vip" style="width: 25rem;">
                         <div class="card-body">
-                            <h5 class="card-title">Paket Umrah VIP</h5>
+                            <h5 class="card-title fw-bold">Paket Umrah VIP</h5>
+                            <ul class="card-list">
+                                <li><i class="fa-solid fa-check"></i>&nbsp;Hotel bintang 5 eksklusif</li>
+                                <li><i class="fa-solid fa-check"></i>&nbsp;Transportasi premium dan prioritas</li>
+                                <li><i class="fa-solid fa-check"></i>&nbsp;Pendamping pribadi dari awal sampai akhir</li>
+                            </ul>
                             <p class="card-text">Pengalaman premium dengan hotel bintang 5, transportasi eksklusif, dan pelayanan prioritas dari awal hingga selesai. Cocok bagi yang ingin ibadah lebih tenang dan berkelas.
                             </p>
-                            <a href="#" class="btn" id="paket-btn">Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+                            <h5 class="card-price fw-bold">Rp 40.000.000</h5>
+                            <a href="#" class="btn" id="paket-btn">Selengkapnya <i
+                                    class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- card paket -->
+        <!-- card paket -->
+
+        <!-- tour leader -->
+        <div class="tour-leader pt-5 mt-4 p-2" id="tourL">
+            <div class="container p-2">
+                <div class="tourL-title mb-4">
+                    <h2 class="text-center fw-bold" id="tourL-judul">Tour Leader</h2>
+                    <h2 class="text-center fw-normal">Pendamping Ibadah Profesional</h2>
+                </div>
+                <div class="row row-cols-lg-3 row-cols-1 gap-2">
+                    <div class="col">
+                        <div class="card rounded-0 border border-0" style="width: 25rem;">
+                            <img src="assets/img/sepertiini.png" width="360" height="320" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2>Gus Seperti Ini</h2>
+                                <p>Tour Leader OtwUmrah</p>
+                                <p class="card-text">Berpengalaman sejak tadi. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card rounded-0 border border-0" style="width: 25rem;">
+                            <img src="assets/img/sepertiini.png" width="360" height="320" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2>Gus Tekaje</h2>
+                                <p>Tour Leader OtwUmrah</p>
+                                <p class="card-text">Berpengalaman sejak kemarin. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card rounded-0 border border-0" style="width: 25rem;">
+                            <img src="assets/img/sepertiini.png" width="360" height="320" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2>Gus Behel</h2>
+                                <p>Tour Leader OtwUmrah</p>
+                                <p class="card-text">Masih Belajar.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- tour leader -->
+
+        <!-- testimoni -->
+        <div class="testimoni">
+            <div class="container">
+                
+            </div>
+        </div>
+        <!-- testimoni -->
+    </div> <!-- Main -->
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

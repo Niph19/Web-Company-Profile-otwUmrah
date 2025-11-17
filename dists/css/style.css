@@ -157,3 +157,22 @@
     transition: 0.3s;
     scale: 1.04;
 }
+.card-price {
+    color: #917a5a;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.card-list {
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.card-list i {
+    color: #917a5a;
+}
+.card-text2 {
+    margin-bottom: 40px;
+}
+.tour-leader .col {
+    width: fit-content;
+}
