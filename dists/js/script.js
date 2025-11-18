@@ -1,4 +1,4 @@
-const navbar = document.querySelector(".navbar")
+const navbar = document.querySelector(".navbar");
 
 window.addEventListener("scroll", () => {
     const position = window.scrollY > 0;

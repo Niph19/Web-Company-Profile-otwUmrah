@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .main-container {
     background-color: #f5f4f1;
 }
@@ -121,8 +126,9 @@
     width: fit-content;
 }
 .paket-title h2 {
-    font-size: 35px;
     font-family: "Playfair Display", serif;
+    font-size: 35px;
+    color: #32220b;
 }
 #paket-btn {
     background-color: #917a5a;
@@ -132,7 +138,7 @@
     color: #ffffff;
 }
 .card-title {
-    color: #32220b;
+    color: black;
     font-size: 25px;
 }
 .card-text {
@@ -173,9 +179,47 @@
 .card-text2 {
     margin-bottom: 40px;
 }
+#tourL-judul {
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    color: #32220b;
+}
+#tourL-subjudul {
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+}
 .tour-leader .col {
     width: fit-content;
 }
 .tour-leader .card-body h2 {
     color: #32220b;
+}
+#testimoni-judul {
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    color: #32220b;
+}
+#testimoni-subjudul {
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+}
+#testimoni-nama {
+    font-size: 25px;
+    margin: 0;
+}
+#testimoni-bawah {
+    font-size: 20px;
+    font-weight: 400;
+}
+#footer-contact {
+    margin-right: -150px;
+}
+.footer-heading {
+    color: #ede2c5;
+}
+.footer {
+    background-color: #584c3c;
+}
+.footer p {
+    color: #f8f9fa;
 }
